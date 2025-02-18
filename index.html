@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Header -->
+        <header>
+            <h1>Jane Doe</h1>
+        </header>
+        
+        <!-- Sidebar with Navigation -->
+        <aside>
+            <nav>
+                <ul>
+                    <li><a href="#summary">Summary</a></li>
+                    <li><a href="#education">Education</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <a href="./resume.pdf" class="download-btn">Download Resume</a>
+        </aside>
+        
+        <!-- Main Content -->
+        <main>
+            <!-- Summary Section -->
+            <section id="summary" class="summary">
+                <h2>Professional Summary</h2>
+                <p>I am a passionate web developer with over 5 years of experience in creating responsive, user-friendly websites and applications. My expertise lies in front-end development, with a strong foundation in HTML, CSS, and JavaScript. I am dedicated to crafting clean, efficient code that provides exceptional user experiences.</p>
+            </section>
+            
+            <!-- Education Section with Table -->
+            <section id="education">
+                <h2>Education</h2>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Institution</th>
+                            <th>Degree</th>
+                            <th>Years</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Stanford University</td>
+                            <td>M.S. Computer Science</td>
+                            <td>2018-2020</td>
+                        </tr>
+                        <tr>
+                            <td>University of California, Berkeley</td>
+                            <td>B.S. Computer Science</td>
+                            <td>2014-2018</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+            
+            <!-- Skills Section with Flexbox -->
+            <section id="skills">
+                <h2>Skills</h2>
+                <div class="skills-container">
+                    <span class="skill-item">HTML5</span>
+                    <span class="skill-item">CSS3</span>
+                    <span class="skill-item">JavaScript</span>
+                    <span class="skill-item">React</span>
+                    <span class="skill-item">Node.js</span>
+                    <span class="skill-item">Git</span>
+                    <span class="skill-item">Responsive Design</span>
+                    <span class="skill-item">UI/UX Design</span>
+                    <span class="skill-item">Bootstrap</span>
+                    <span class="skill-item">SASS/SCSS</span>
+                    <span class="skill-item">RESTful APIs</span>
+                    <span class="skill-item">MongoDB</span>
+                </div>
+            </section>
+            
+            <!-- Projects Section with Grid -->
+            <section id="projects">
+                <h2>Projects</h2>
+                <div class="projects-grid">
+                    <div class="project-card">
+                        <div class="project-img" style="background-color: #3498db;"></div>
+                        <div class="project-info">
+                            <h3 class="project-title">E-commerce Platform</h3>
+                            <p class="project-desc">A fully responsive e-commerce platform built with React and Node.js, featuring user authentication and payment integration.</p>
+                        </div>
+                    </div>
+                    <div class="project-card">
+                        <div class="project-img" style="background-color: #2ecc71;"></div>
+                        <div class="project-info">
+                            <h3 class="project-title">Portfolio Website</h3>
+                            <p class="project-desc">A personal portfolio website showcasing my projects and skills, built with HTML, CSS, and JavaScript.</p>
+                        </div>
+                    </div>
+                    <div class="project-card">
+                        <div class="project-img" style="background-color: #e74c3c;"></div>
+                        <div class="project-info">
+                            <h3 class="project-title">Task Management App</h3>
+                            <p class="project-desc">A task management application that helps users organize their daily tasks and increase productivity.</p>
+                        </div>
+                    </div>
+                    <div class="project-card">
+                        <div class="project-img" style="background-color: #f39c12;"></div>
+                        <div class="project-info">
+                            <h3 class="project-title">Weather Dashboard</h3>
+                            <p class="project-desc">An interactive weather dashboard that fetches real-time weather data from an API and displays it in a user-friendly manner.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            
+            <!-- Experience Section with Table -->
+            <section id="experience">
+                <h2>Work Experience</h2>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Company</th>
+                            <th>Position</th>
+                            <th>Duration</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Google</td>
+                            <td>Senior Front-End Developer</td>
+                            <td>2020-Present</td>
+                        </tr>
+                        <tr>
+                            <td>Amazon</td>
+                            <td>Web Developer</td>
+                            <td>2018-2020</td>
+                        </tr>
+                        <tr>
+                            <td>Startup Inc.</td>
+                            <td>Junior Developer</td>
+                            <td>2016-2018</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+        </main>
+        
+        <!-- Footer with Contact Information -->
+        <footer id="contact">
+            <div class="contact-info">
+                <div class="contact-item">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                        <path d="M20 4H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2zm0 4.7l-8 5.334L4 8.7V6.297l8 5.333 8-5.333V8.7z"/>
+                    </svg>
+                    <span>jane.doe@example.com</span>
+                </div>
+                <div class="contact-item">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                        <path d="M20 10.999h2C22 5.869 18.127 2 12.99 2v2C17.052 4 20 6.943 20 10.999z"/>
+                        <path d="M13 8c2.103 0 3 .897 3 3h2c0-3.225-1.775-5-5-5v2zm3.422 5.443a1.001 1.001 0 0 0-1.391.043l-2.393 2.461c-.576-.11-1.734-.471-2.926-1.66-1.192-1.193-1.553-2.354-1.66-2.926l2.459-2.394a1 1 0 0 0 .043-1.391L6.859 3.513a1 1 0 0 0-1.391-.087l-2.17 1.861a1 1 0 0 0-.29.649c-.015.25-.301 6.172 4.291 10.766C11.305 20.707 16.323 21 17.705 21c.202 0 .326-.006.359-.008a.992.992 0 0 0 .648-.291l1.86-2.171a1 1 0 0 0-.086-1.391l-4.064-3.696z"/>
+                    </svg>
+                    <span>(555) 123-4567</span>
+                </div>
+                <div class="contact-item">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                        <path d="M12 14c2.206 0 4-1.794 4-4s-1.794-4-4-4-4 1.794-4 4 1.794 4 4 4zm0-6c1.103 0 2 .897 2 2s-.897 2-2 2-2-.897-2-2 .897-2 2-2z"/>
+                        <path d="M11.42 21.814a.998.998 0 0 0 1.16 0C12.884 21.599 20.029 16.44 20 10c0-4.411-3.589-8-8-8S4 5.589 4 9.995c-.029 6.445 7.116 11.604 7.42 11.819zM12 4c3.309 0 6 2.691 6 6.005.021 4.438-4.388 8.423-6 9.73-1.611-1.308-6.021-5.294-6-9.735 0-3.309 2.691-6 6-6z"/>
+                    </svg>
+                    <span>San Francisco, CA</span>
+                </div>
+            </div>
+            <div class="copyright">
+                © 2025 Jane Doe. All rights reserved.
+            </div>
+        </footer>
+    </div>
+</body>
+</html>

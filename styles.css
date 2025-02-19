@@ -39,6 +39,12 @@ header {
 
 header h1 {
     font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+header .tagline {
+    font-size: 1.1rem;
+    opacity: 0.9;
 }
 
 /* Sidebar Styles with Flexbox */
@@ -116,6 +122,11 @@ h2 {
     border-bottom: 2px solid #ecf0f1;
 }
 
+h3 {
+    color: #34495e;
+    margin: 25px 0 15px;
+}
+
 /* Table Styles for Education and Experience */
 table {
     width: 100%;
@@ -139,6 +150,7 @@ th {
     display: flex;
     flex-wrap: wrap;
     gap: 10px;
+    margin-bottom: 20px;
 }
 
 .skill-item {
@@ -215,6 +227,17 @@ footer {
     width: 20px;
     height: 20px;
     fill: #3498db;
+}
+
+.contact-item a {
+    color: #3498db;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.contact-item a:hover {
+    color: #2980b9;
+    text-decoration: underline;
 }
 
 .copyright {
